@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaFramebuffer/App.axaml" value="AvaloniaFramebuffer/AvaloniaFramebuffer.csproj" />
+        <entry key="AvaloniaFramebuffer/MainSingleView.axaml" value="AvaloniaFramebuffer/AvaloniaFramebuffer.csproj" />
+        <entry key="AvaloniaFramebuffer/MainView.axaml" value="AvaloniaFramebuffer/AvaloniaFramebuffer.csproj" />
+        <entry key="AvaloniaFramebuffer/MainWindow.axaml" value="AvaloniaFramebuffer/AvaloniaFramebuffer.csproj" />
+        <entry key="AvaloniaFramebuffer/UserControl1.axaml" value="AvaloniaFramebuffer/AvaloniaFramebuffer.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
