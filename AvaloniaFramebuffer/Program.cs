@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading;
 using Avalonia;
+using Avalonia.LinuxFramebuffer;
 using Avalonia.Media;
 
 namespace AvaloniaFramebuffer;
@@ -40,6 +41,10 @@ internal class Program
     public static AppBuilder BuildAvaloniaApp()
     {
         return AppBuilder.Configure<App>()
+            .With(new LinuxFramebufferPlatformOptions
+            {
+                Fps = 30
+            })
             .With(new FontManagerOptions
             {
                 DefaultFamilyName = "avares://AvaloniaFramebuffer/NotoSans-Regular.ttf#Noto Sans"
